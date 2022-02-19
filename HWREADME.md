@@ -1,5 +1,3 @@
-# Day-Planner
-
 # 05 Third-Party APIs: Work Day Scheduler
 
 ## Your Task
@@ -38,23 +36,54 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
-## Description
 
-After reviewing the CSS, I was happy to see that I could use existing classes to structure my HTML rows, and eventually add existing classes to rows to reflect the time status (past,present, future).
+## Grading Requirements
 
-First, I created two demo HTML rows to get the styling down. After they looked correct I created the necessary Javascript variables to reflect my HTML elements.
+This homework is graded based on the following criteria: 
 
-Next, aftering reviewing documentation for moment.js, I was able to set up a proper API pull and grab the current day and the current hour of the user's local time.
-Using the 24-hour format moment.js return value, I was able to conditionally add classes to the rows to color them correctly based on their time status.
+### Technical Acceptance Criteria: 40%
 
-Next, I set up an event listener on the row save button to locally store the input of that row's respective text area input. I then pulled from this local storage and displayed in the event field - which properly stayed in local storage upon page reload.
+* Satisfies all of the above acceptance criteria plus the following:
 
-Finally, after one row was properly styled and locally storing its event input, I duplicated the rows and adjusted so they are independently setting/getting local storage.
+  * Uses a date utility library to work with date and time
 
-## Deployment Details
+### Deployment: 32%
 
-Repo: [Day Planner Homework - Alex Geis Github](https://github.com/alexgeis/Day-Planner)
+* Application deployed at live URL
 
-GitHub Pages URL: [Day Planner](https://alexgeis.github.io/Day-Planner/)
+* Application loads with no errors
 
-Screenshot: ![Day Planner - full page screenshot](./Assets/Work-Day-Scheduler.png)
+* Application GitHub URL submitted
+
+* GitHub repo contains application code
+
+### Application Quality: 15%
+
+* Application user experience is intuitive and easy to navigate
+
+* Application user interface style is clean and polished
+
+* Application resembles the mock-up functionality provided in the homework instructions
+
+### Repository Quality: 13%
+
+* Repository has a unique name
+
+* Repository follows best practices for file structure and naming conventions
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages
+
+* Repository contains quality README file with description, screenshot, and link to deployed application
+
+## Review
+
+You are required to submit the following for review:
+
+* The URL of the deployed application
+
+* The URL of the GitHub repository, with a unique name and a README describing the project
+
+- - -
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
