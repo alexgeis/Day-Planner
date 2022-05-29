@@ -28,13 +28,9 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
 ## Description
 
-After reviewing the CSS, I was happy to see that I could use existing classes to structure my HTML rows, and eventually add existing classes to rows to reflect the time status (past,present, future).
+After initial planning, I added CSS classes to structure my HTML rows, and eventually add classes to rows to reflect the time status (past,present, future).
 
 First, I created two demo HTML rows to get the styling down. After they looked correct I created the necessary Javascript variables to reflect my HTML elements.
 
